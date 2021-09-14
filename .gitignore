@@ -1,0 +1,15 @@
+# Suppress file by name (do not wish track in git)
+portal_data_joined.csv
+
+#Supress file by type 
+*.csv
+*.Rdata
+*.pdf 
+*.jpg 
+
+#Supress file by type folder
+data-cleaned/*.csv
+
+#Supress all but a particular file (EXCEPT) 
+!data-cleaned/portal_data_joined_final.csv
+
